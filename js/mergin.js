@@ -33,7 +33,7 @@ for(i=0; i< postContents.length; i++){
 
 
 //desktop adding
-/*const desktopnav = document.getElementById('desktop-view');
+const desktopnav = document.getElementById('desktop-view');
 
 //desktopnav precontent adding
 for(i=0; i< preContents.length; i++){
@@ -49,7 +49,7 @@ for(i=0; i<contents.length; i++){
 for(i=0; i< postContents.length; i++){
   desktopnavPostContent = `<li class="tab hina_mincho"><a class="grey-text text-darken-3" href="${postContents[i]}">${postContents[i]}</a></li>`;
   desktopnav.innerHTML += desktopnavPostContent;
-}*/
+}
 
 
 
