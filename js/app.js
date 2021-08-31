@@ -1,9 +1,0 @@
-//sidenav
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-  $('.collapsible').collapsible();
-});
-//Dropdown
-$('.dropdown-trigger').dropdown({
-  hover:true
-});
